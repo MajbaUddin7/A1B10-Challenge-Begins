@@ -14,7 +14,7 @@ nav{
     background-image: url('../assets/Hero-bg.png');
 }
 .banner-item{
-    text-align: center; 
+    text-align: center;
 }
 .title{
 text-decoration: black;
@@ -29,4 +29,8 @@ text-decoration: black;
 .coding{
     display: flex;
     justify-content: center;
+}
+
+.Inspiration-part{
+    text-align: center;
 }
