@@ -21,7 +21,10 @@ text-decoration: black;
 }
 
 .whyweb{
-    justify-content: center; 
+    background-color: ADC8F7;
+}
+.whyweb-title{
+    text-align: center;  
 }
 .coding{
     display: flex;
