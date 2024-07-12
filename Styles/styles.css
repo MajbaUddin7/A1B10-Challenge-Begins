@@ -1,4 +1,5 @@
 
+/* Nav Style */
 nav{
     display: flex;
     align-items: center;
@@ -6,18 +7,41 @@ nav{
     margin: 0 200px;
 }
 .nav-title{
-    font-weight:800;
+    font-weight:0D1321;
     font-size: 45px;
 }
+.btn-download{
+    background-color: white;
+    font-weight:normal;
+    font-size: 15px;
+    color: 0D1321;
+    padding: 18px 35px;
+    border-radius: 5px;
+}
 
+/* Banner Style */
 .hero_bg{
     background-image: url('../assets/Hero-bg.png');
 }
 .banner-item{
     text-align: center;
+    padding: 25px;
 }
-.title{
-text-decoration: black;
+/* .banner-content{
+    max-width: 580px;
+} */
+.banner-title{
+text-decoration:solid;
+font-size: 48px;
+}
+.btn-contact{
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
 }
 
 .whyweb{
@@ -33,4 +57,17 @@ text-decoration: black;
 
 .Inspiration-part{
     text-align: center;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+/* Need Support part */
+.need-support{
+    background-image: url('../assets/handshake.jpg');
 }
